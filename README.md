@@ -12,12 +12,18 @@
 
 
 1. We are taking the data of all strings,smbs,inverters data from scada system(communication system)
+   
 2. Daily we did string break downs and low perform smbs,inverters using data analysis
+   
    1.python file:inverter_smb_performance
    2.data:SMB REPORT BLOCK wise
+   
 3  We find out the divition in the blocks respected to with their inverters performance using data analysis
+
    1.python file:KWH_devition,DCtoACdevition
    2.data:INVERTER_15MIN data
+   
 4. Daily we find the break down irradition of strings and inverters and it will add in DGR(daily ganeration report) report using data analysis
+   
    1.python file:find_irradition_csvfile,find_irradition_xlsbfile
    2.WMS_REPORT(csv,xlsb files)
